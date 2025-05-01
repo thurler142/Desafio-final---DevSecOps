@@ -1,3 +1,5 @@
+
+const musicaVasco = document.querySelector("#musicaVasco");
 document.getElementById('VascoBtn').addEventListener('click', function() {
     musicaVasco.play();
     const colors = ['#f0f0f0', '#ffcccb', '#d1ffcc', '#ccd1ff', '#ffeccc'];
